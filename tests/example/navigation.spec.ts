@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
 test.describe('네비게이션 테스트', () => {
   test('Todo MVC 페이지에 접속할 수 있다', async ({ page }) => {

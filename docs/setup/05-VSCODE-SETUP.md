@@ -47,13 +47,14 @@ https://code.visualstudio.com 에서 다운로드 후 설치
 | **Claude** | Claude AI 연동 |
 | **Korean Language Pack** | 한국어 인터페이스 |
 
-### 권장 확장
+### 권장 확장 (모두 무료)
 
 | 확장 | 설명 |
 |------|------|
-| **GitLens** | Git 기록 시각화 |
+| **Biome** | 코드 포맷/린트 (Prettier보다 빠름) |
+| **Git Graph** | 브랜치 시각화 (완전 무료) |
+| **Git History** | 커밋 히스토리 조회 |
 | **Error Lens** | 에러 인라인 표시 |
-| **Prettier** | 코드 자동 포맷 |
 
 ---
 
@@ -241,12 +242,24 @@ npm test
 ```json
 {
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.tabSize": 2,
   "files.autoSave": "afterDelay",
   "playwright.reuseBrowser": true,
-  "playwright.showTrace": true
+  "playwright.showTrace": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
 ```
+
+### Biome 포맷터 설정
+
+프로젝트에 `biome.json` 파일이 이미 포함되어 있습니다.
+저장 시 자동으로 코드가 정리됩니다.
 
 ### 자동 저장
 
@@ -255,6 +268,22 @@ npm test
 ### 폰트 크기
 
 - `Cmd+` / `Cmd-` 로 조절
+
+---
+
+## 11. Git Graph 사용법
+
+### 브랜치 시각화
+
+1. `Cmd+Shift+P` → "Git Graph: View Git Graph" 검색
+2. 또는 하단 상태바에서 "Git Graph" 클릭
+3. 브랜치 구조를 시각적으로 확인
+
+### 주요 기능
+
+- 커밋 클릭 → 변경 내용 확인
+- 브랜치 우클릭 → 체크아웃, 머지
+- 커밋 우클릭 → 체리픽, 리버트
 
 ---
 

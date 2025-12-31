@@ -12,10 +12,7 @@ export default defineConfig({
   expect: { timeout: 5000 },
 
   // 리포트
-  reporter: [
-    ['html', { outputFolder: 'reports/html', open: 'never' }],
-    ['list'],
-  ],
+  reporter: [['html', { outputFolder: 'reports/html', open: 'never' }], ['list']],
 
   // 스크린샷 및 트레이스
   use: {

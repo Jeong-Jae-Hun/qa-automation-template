@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/base.fixture';
+import { expect, test } from '../../fixtures/base.fixture';
 
 test.describe('Todo 수정 기능', () => {
   test.beforeEach(async ({ examplePage }) => {

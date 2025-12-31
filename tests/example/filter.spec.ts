@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/base.fixture';
+import { expect, test } from '../../fixtures/base.fixture';
 import testData from '../../fixtures/test-data/example.json';
 
 test.describe('Todo 필터 기능', () => {

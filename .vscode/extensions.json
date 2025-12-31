@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-playwright.playwright",
+    "biomejs.biome",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "usernamehw.errorlens"
+  ]
+}

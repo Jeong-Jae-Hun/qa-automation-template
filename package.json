@@ -9,23 +9,20 @@
     "test:debug": "playwright test --debug",
     "codegen": "playwright codegen",
     "report": "playwright show-report reports/html",
-    "lint": "eslint tests/ pages/ components/",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
     "type-check": "tsc --noEmit"
   },
-  "keywords": [
-    "qa",
-    "automation",
-    "playwright",
-    "claude-code",
-    "testing"
-  ],
+  "keywords": ["qa", "automation", "playwright", "claude-code", "testing"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@playwright/test": "^1.49.0",
     "@types/node": "^22.10.0",
-    "typescript": "^5.7.0",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.4.0",
+    "typescript": "^5.7.0"
   },
   "engines": {
     "node": ">=18"

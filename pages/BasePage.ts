@@ -1,4 +1,4 @@
-import { Page, Locator } from '@playwright/test';
+import type { Locator, Page } from '@playwright/test';
 
 /**
  * 모든 Page Object의 기반 클래스
@@ -14,7 +14,7 @@ export abstract class BasePage {
   /**
    * 페이지로 이동
    */
-  async goto(path: string = '/') {
+  async goto(path = '/') {
     await this.page.goto(path);
   }
 
