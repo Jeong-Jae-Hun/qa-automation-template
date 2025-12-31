@@ -1,0 +1,33 @@
+{
+  "name": "qa-automation-template",
+  "version": "1.0.0",
+  "description": "Claude Code + Playwright QA 자동화 템플릿",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "codegen": "playwright codegen",
+    "report": "playwright show-report reports/html",
+    "lint": "eslint tests/ pages/ components/",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "claude-code",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

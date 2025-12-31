@@ -1,0 +1,20 @@
+{
+  "todos": {
+    "items": [
+      "우유 사기",
+      "빨래하기",
+      "운동하기"
+    ],
+    "singleItem": "회의 준비"
+  },
+  "users": {
+    "validUser": {
+      "email": "test@example.com",
+      "password": "password123"
+    },
+    "invalidUser": {
+      "email": "test@example.com",
+      "password": "wrongpassword"
+    }
+  }
+}
