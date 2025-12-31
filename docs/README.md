@@ -18,7 +18,8 @@ docs/
 ├── guide/          # 사용 가이드
 │   ├── 01-FIRST-TEST.md        # 첫 테스트 작성
 │   ├── 02-WORKFLOW.md          # 일일 워크플로우
-│   └── 03-BEST-PRACTICES.md    # 모범 사례
+│   ├── 03-BEST-PRACTICES.md    # 모범 사례
+│   └── 04-VSCODE-CLAUDE-TUTORIAL.md  # 실전 튜토리얼
 │
 ├── operations/     # 운영
 │   ├── 01-TEAM-GUIDE.md        # 팀 운영/협업
@@ -49,6 +50,7 @@ docs/
 1. [첫 테스트](guide/01-FIRST-TEST.md) - Claude로 첫 테스트 만들기
 2. [일일 워크플로우](guide/02-WORKFLOW.md) - 매일 작업 방식
 3. [모범 사례](guide/03-BEST-PRACTICES.md) - 좋은 테스트 작성법
+4. [실전 튜토리얼](guide/04-VSCODE-CLAUDE-TUTORIAL.md) - 피쳐→테스트→커밋 전체 흐름
 
 ### 팀 운영
 
