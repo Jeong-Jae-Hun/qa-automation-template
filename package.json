@@ -14,7 +14,13 @@
     "format": "biome format --write .",
     "type-check": "tsc --noEmit"
   },
-  "keywords": ["qa", "automation", "playwright", "claude-code", "testing"],
+  "keywords": [
+    "qa",
+    "automation",
+    "playwright",
+    "claude-code",
+    "testing"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -25,6 +31,13 @@
     "typescript": "^5.7.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["@biomejs/biome"]
+  },
+  "volta": {
+    "node": "22.17.0"
   }
 }

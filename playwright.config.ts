@@ -52,10 +52,28 @@ export default defineConfig({
       use: { ...devices['Desktop Firefox'] },
     },
 
-    // 모바일 크롬
+    // 사파리 (WebKit)
     {
-      name: 'mobile',
+      name: 'webkit',
+      use: { ...devices['Desktop Safari'] },
+    },
+
+    // 엣지
+    {
+      name: 'edge',
+      use: { ...devices['Desktop Edge'], channel: 'msedge' },
+    },
+
+    // 모바일 크롬 (Android)
+    {
+      name: 'mobile-chrome',
       use: { ...devices['Pixel 5'] },
+    },
+
+    // 모바일 사파리 (iOS)
+    {
+      name: 'mobile-safari',
+      use: { ...devices['iPhone 14'] },
     },
   ],
 
