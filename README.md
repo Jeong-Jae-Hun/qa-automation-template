@@ -68,13 +68,27 @@ claude
 
 ## 문서
 
-- [00. 사전 준비](docs/00-PREREQUISITES.md) - Git, Node.js, Claude Code 설치
-- [01. 설치 가이드](docs/01-SETUP.md) - 프로젝트 세팅
-- [02. 첫 테스트](docs/02-FIRST-TEST.md) - 첫 테스트 작성하기
-- [03. 워크플로우](docs/03-WORKFLOW.md) - 일일 테스트 워크플로우
-- [04. 모범 사례](docs/04-BEST-PRACTICES.md) - 테스트 작성 팁
-- [05. 팀 가이드](docs/05-TEAM-GUIDE.md) - 팀 운영 및 공유
-- [99. 문제 해결](docs/99-TROUBLESHOOTING.md) - FAQ
+### 환경 설정
+- [쉘 설정](docs/setup/00-SHELL-SETUP.md) - zsh/터미널 설정
+- [필수 도구](docs/setup/00-PREREQUISITES.md) - Git, Node.js, Claude Code 설치
+- [프로젝트 세팅](docs/setup/01-SETUP.md) - 의존성 설치 및 설정
+- [Git 기초](docs/setup/02-GIT-BASICS.md) - Git 사용법
+- [VS Code 설정](docs/setup/03-VSCODE-SETUP.md) - VS Code + Claude 설정 ⭐
+
+### 사용 가이드
+- [첫 테스트](docs/guide/02-FIRST-TEST.md) - 첫 테스트 작성하기
+- [일일 워크플로우](docs/guide/03-WORKFLOW.md) - 매일 작업 방식
+- [모범 사례](docs/guide/04-BEST-PRACTICES.md) - 좋은 테스트 작성법
+
+### 운영
+- [팀 가이드](docs/operations/05-TEAM-GUIDE.md) - 팀 운영 및 공유
+- [테스트 케이스 목록](docs/operations/TESTCASE-CATALOG.md) - 전체 테스트 관리
+- [테스트 전략](docs/operations/TEST-STRATEGY.md) - 무엇을 테스트할 것인가
+- [QA 연구 노트](docs/operations/QA-RESEARCH.md) - 연구/실험 기록
+
+### 참고
+- [셀렉터 가이드](docs/reference/SELECTOR-GUIDE.md) - 안정적인 요소 선택
+- [문제 해결](docs/reference/99-TROUBLESHOOTING.md) - FAQ
 
 ## 라이선스
 
